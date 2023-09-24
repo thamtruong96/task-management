@@ -1,0 +1,16 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <mat-chip-list class="mat-chip-list">
+          <mat-chip selected="true">
+            {{closedTasksCount}} Completed
+          </mat-chip> /
+          <mat-chip selected="true" color="warn">
+            {{tasks?.length}} Total
+          </mat-chip>
+        </mat-chip-list>
+      </div>
+    </div>
+  </div>
+</section>

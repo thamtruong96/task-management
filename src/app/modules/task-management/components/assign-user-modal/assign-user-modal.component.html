@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Assign User</h2>
+<mat-dialog-content class="mat-typography">
+    <mat-form-field>
+        <mat-label>Assignee</mat-label>
+        <mat-select [(ngModel)]="userId">
+            <mat-option *ngFor="let user of users" [value]="user.id">
+                {{user.name}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="primary" (click)="assignUser()">Assign</button>
+    <button mat-raised-button color="warn" (click)="cancel()">Cancel</button>
+</mat-dialog-actions>

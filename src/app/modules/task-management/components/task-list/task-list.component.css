@@ -1,0 +1,27 @@
+  .demo-tab-content {
+    padding: 16px;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 10%;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+  .completed {
+    color: green; /* or your desired color for completed items */
+  }
+
+  .uncompleted {
+    color: red; /* or your desired color for uncompleted items */
+  }

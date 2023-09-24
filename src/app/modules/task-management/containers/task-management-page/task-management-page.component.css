@@ -1,0 +1,9 @@
+.content-page {
+    margin: 0 8px;
+}
+
+@media (max-width: 600px) {
+    .content-page {
+        flex-wrap: wrap;
+    }
+}
